@@ -47,5 +47,3 @@ const color = `rgb(${random(0,155)},${random(0,155)},${random(0,155)})`;
 document.body.style.backgroundColor = bgcolor;
 container.style.backgroundColor = color;
 }
-
-btns.addEventListener("click", colorChange);
