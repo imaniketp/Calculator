@@ -23,6 +23,7 @@ for(item of buttons){
 
         else if(buttonText =='='){
             screen.value = eval(screenValue);
+            screenValue = screen.value;
         }
 
         else if (buttonText == '<<'){
@@ -34,6 +35,7 @@ for(item of buttons){
             screen.value = screenValue;
         }
     });
+    
 }
 
  function random(start, end) {
